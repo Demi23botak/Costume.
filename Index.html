@@ -1,0 +1,5 @@
+curl --request PATCH \
+"https://api.cloudflare.com/client/v4/accounts/{account_id}/pages/projects/{project_name}" \
+--header "Authorization: Bearer <API_TOKEN>" \
+--header "Content-Type: application/json" \
+--data "{\"production_branch\": \"main\"}"
